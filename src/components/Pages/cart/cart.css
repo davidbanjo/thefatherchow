@@ -1,0 +1,26 @@
+.fc_cart-container {
+    box-sizing: border-box;
+    width: 991px;
+    height: 72px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+}
+.-active {
+    background: #FFCC00;
+    border-radius: 10px 10px 10px 10px;
+    transition: 0.5s;
+}
+.fc_cart-row {
+    display: grid;
+    place-items: center;
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}

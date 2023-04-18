@@ -1,0 +1,51 @@
+.aboutContainer {
+    display: grid;
+    place-items: center;
+}
+.aboutSubContainer {
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 35rem;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #FFCC00 0%, #C89615 100%);
+    box-shadow: -1px 6px 2px rgba(0, 0, 0, 0.25);
+    padding: 70px;
+}
+.ownerProfile {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ownerImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+}
+.profileDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sectionTitle h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+.ownerName h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.sectionContent{
+    width: 100%;
+}
+.sectionContent p {
+    font-size: 2.0rem;
+}
+.sectionLogo {
+    width: 7rem;
+}

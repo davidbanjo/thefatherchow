@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Navbar",
+    "\\src\\components\\Pages",
+    "\\src\\components\\Pages\\cart",
+    "\\src\\components\\Pages\\dashboard",
+    "\\src\\components\\Pages\\dashboard\\subcomponents",
+    "\\src\\components\\Pages\\dashboard\\subcomponents\\productCard",
+    "\\src\\components\\Pages\\home"
+  ],
+  "SelectedNode": "\\src\\components\\Pages\\cart\\Cart.js",
+  "PreviewInSolutionExplorer": false
+}
