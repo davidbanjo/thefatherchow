@@ -24,3 +24,70 @@
     font-size: 20px;
     cursor: pointer;
 }
+.fc_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fc_section-container {
+    margin-bottom: 25px;
+}
+.fc_pickupStatus-conatiner {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fc_pickup-container-row {
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    position: relative;
+    border-radius: 20px;
+    height: 8rem;
+    width: 991px;
+    padding: 10px 0;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.fc_pickupName {
+    font-weight: 400;
+}
+.radioBtn {
+    /* box-sizing: border-box; */
+    width: 25px;
+    height: 25px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select {
+    width: 18px;
+    height: 18px;
+    background-color: #FFCC00;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: auto;
+}
+.status {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    
+}
+.status-green {
+    background-color: green;
+}
+.status-red {
+    background-color: red;
+}
+.not-cursor {
+    cursor: not-allowed;
+}
+cursor {
+    cursor: pointer;
+}
