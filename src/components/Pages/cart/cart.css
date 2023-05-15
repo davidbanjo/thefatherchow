@@ -49,6 +49,21 @@
     padding-left: 30px;
     cursor: pointer;
 }
+.fc_delivery-container-row {
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+    height: max-content;
+    width: 991px;
+    /* padding: 10px 0; */
+    padding-left: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 50px 0 !important;  
+    /* padding: 0; */
+}
 .fc_pickupName {
     font-weight: 400;
 }
@@ -88,6 +103,82 @@
 .not-cursor {
     cursor: not-allowed;
 }
-cursor {
+.cursor {
     cursor: pointer;
 }
+.redBox {
+    border: 1px solid red;
+}
+.greyBox {
+    border: 1px solid lightgrey !important;
+}
+.fc_section-delievery-title {
+    float: left;
+    width: 996px;
+    margin: 0 auto;
+}
+.fc_cart-image {
+    width: 200px;
+}
+.fc_cart-desc {
+    width: 200px;
+}
+.minusCont {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: grey;
+    border-radius: 50%;
+}
+.addCont {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #FFCC00;
+    border-radius: 50%;
+}
+.countContainer {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputBox {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 280px;
+    height: 50px;
+    background-color: white;
+    color: gray;
+    padding: 0 10px;
+}
+label {
+    /* border: 1px solid black; */
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.deliveryForm {
+    width: 991px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fc__spacer {
+    height: 50px;
+}
+.summaryCont {
+    /* border: 1px solid black; */
+}
+.summaryCont > div {
+    border-bottom: 1px solid lightgrey;
+    width: 600px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+/* .summaryCont > div > span {
+    color: ;
+} */

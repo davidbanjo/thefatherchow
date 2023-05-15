@@ -43,7 +43,7 @@ a {
     /* border: 1px solid black */
     width: 100%;
 }
-form {
+.form {
     width: 70%;
     /* border: 1px solid black; */
     height: 25rem;
@@ -54,4 +54,9 @@ form {
 }
 .loginBtn {
     width: 80%;
+}
+.submitBtn {
+    width: 100px !important;
+    background-color: black !important;
+    color: white  !important;
 }

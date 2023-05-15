@@ -14,7 +14,7 @@ const Login = () => {
             <h1 className='w-900'>Login</h1>
             <p>Please enter your details below</p>
           </div>
-          <form>
+          <form className='form'>
             <legend className='formTitle'>
             <input className='inputContainer' type='email' placeholder='Email' />
             <input className='inputContainer' type='password' placeholder='Password' />
